@@ -1,0 +1,19 @@
+{
+  "name": "shared",
+  "sources": {
+    "dir": "src",
+    "subdirs": true,
+    "public": ["Message"]
+  },
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".bs.mjs",
+  "bs-dependencies": [
+    "@rescript/core"
+  ],
+  "bsc-flags": [
+    "-open RescriptCore"
+  ]
+}
